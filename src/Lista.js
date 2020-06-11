@@ -104,10 +104,10 @@ function Lista(){
     }
 
 
-     async function apagar(id) { 
+     async function apagar(Id) { 
 
 
-        await api.delete(`/caixa/${id}`);
+        await api.delete(`/caixa/${Id}`);
         loadData();
     }
 
