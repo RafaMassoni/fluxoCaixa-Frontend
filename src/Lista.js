@@ -106,7 +106,7 @@ function Lista(){
 
      async function apagar(Id) { 
 
-
+        console.log(Id);
         await api.delete(`/caixa/${Id}`);
         loadData();
     }
