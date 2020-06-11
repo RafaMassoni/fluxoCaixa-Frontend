@@ -1,7 +1,9 @@
 import React from 'react';
+import Lista from './Lista';
 
 function App() {
-  return <h1>ReactJS, Template!</h1>
+    return <Lista/>
 }
+
 
 export default App;
